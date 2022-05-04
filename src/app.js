@@ -9,6 +9,8 @@ const publicpathDirectory = path.join(__dirname, "../public");
 const viewPath = path.join(__dirname, "../template/views");
 const partialsPath = path.join(__dirname, "../template/partials");
 
+const port = process.env.PORT || 3000;
+
 web.use(express.static(publicpathDirectory));
 
 web.set("view engine", "hbs");
@@ -105,8 +107,8 @@ web.get("*", (req, res) => {
   });
 });
 
-web.listen(3000, () => {
-  console.log("Server started on port 3000");
+web.listen(port, () => {
+  console.log("Server started on port port");
 });
 
 //  1) Something about header.hbs(inside the partials folder) and nodemon
