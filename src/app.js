@@ -30,7 +30,7 @@ web.get("/", (req, res) => {
 
 web.get("/about", (req, res) => {
   res.render("about", {
-    title: "This is about me",
+    title: "About the site",
     author: "Soham Mukherjee",
   });
 });
