@@ -56,3 +56,16 @@ button {
   cursor: pointer;
   padding: 6px;
 }
+
+#message-1,
+#message-2 {
+  font-weight: 600;
+}
+
+.index-class {
+  font-weight: 600;
+}
+
+p {
+  font-size: 20.4px;
+}

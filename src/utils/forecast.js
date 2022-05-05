@@ -10,7 +10,7 @@ const forecast = (latitude, longitude, callback) => {
     } else {
       callback(
         undefined,
-        `It is currently ${body.current.temperature} degree celsius with ${body.current.precip}% chances of rainfall`
+        `Weather type : ${body.current.weather_descriptions[0]}. It is currently ${body.current.temperature}\u2103, but it feels like ${body.current.feelslike}\u2103 with ${body.current.precip}% chances of rainfall`
       );
     }
   });
