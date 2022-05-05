@@ -37,7 +37,6 @@ web.get("/about", (req, res) => {
 
 web.get("/help", (req, res) => {
   res.render("help", {
-    helpMessage: "This is a helpful message",
     title: "Help",
     author: "Soham Mukherjee",
   });
