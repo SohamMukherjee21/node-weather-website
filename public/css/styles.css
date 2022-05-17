@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #99c4c8;
 }
 
 .main-content {
@@ -34,10 +33,17 @@ h1 {
   margin-bottom: 16px;
 }
 
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 header a {
   text-decoration: none;
   color: #888888;
   margin-right: 16px;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .potrait {
@@ -60,13 +66,13 @@ button {
 
 #message-1,
 #message-2 {
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .index-class {
-  font-weight: 600;
+  font-weight: 300;
 }
 
 p {
-  font-size: 20.4px;
+  font-size: 20px;
 }
